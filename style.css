@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+section{
+     min-height: 100vh;
+     background-position: center;
+     background-size: cover;
+}
+
+#main {
+    background-image: url(img/bgMAIN.png);
+}
+#about{
+    background-image: url(img/bgABOUT.png);
+}
+.elien {
+    width: 125PX;
+}
+.maincontent{
+    width: 851px;
+    height: 229px;
+    background-image: url(img/form1.png);
+}
+.button {
+    background-color: #BBFF2C;
+    padding: 23px 26px;
+    border: 2px solid black;
+    border-radius: 100px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
