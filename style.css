@@ -31,3 +31,12 @@ section{
     font-size: 20px;
     display: block;
 }
+#skills{
+    background-image: url(img/bgSKILLS.png);
+}
+#works{
+    background-image: url(img/bgWORKS.png);
+}
+#comments{
+    background-image: url(img/bgCOMMENTS.pngs);
+}
