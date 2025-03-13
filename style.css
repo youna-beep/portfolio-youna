@@ -31,6 +31,7 @@ section{
     box-sizing: border-box;
     padding-top: 60px;
     margin-bottom: 20px;
+    position: relative;
 }
 .button {
     background-color: #BBFF2C;
@@ -77,6 +78,7 @@ section{
     box-sizing: border-box;
     padding-top: 60px;
     margin-bottom: 20px;
+   
 }
 .aboutviol{
     width: 511px;
@@ -111,4 +113,40 @@ section{
     color: #000000;
     margin: 10px;
     
+}
+.decor-big{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transform: translate(50%, -50%);
+  
+}
+.decor-small{
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+    animation-name: planetWoblle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate ;
+}
+
+@keyframes planetWoblle {
+    from{
+        transform: translateY();
+    }
+    to{
+        transform: translateY(-70px);
+    }
+}
+.cloud{
+    animation-name: orbit;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse ;
+}
+
+@keyframes orbit{
+
+
 }
