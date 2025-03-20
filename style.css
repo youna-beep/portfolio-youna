@@ -20,6 +20,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 .elien {
     width: 125PX;
@@ -48,12 +49,27 @@ section{
 }
 #skills{
     background-image: url(img/bgSKILLS.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 #works{
     background-image: url(img/bgWORKS.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 #comments{
     background-image: url(img/bgCOMMENTS.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 .maincontent_wraper{
     width: max-content;
@@ -70,23 +86,25 @@ section{
     font-size: 20px;
     font-weight: 700;
     color: #2B2D35;
+    
 }
 .aboutcontent{
     width: 376px;
     height: 346px;
     background-image: url(img/form2.png);
     box-sizing: border-box;
+    padding: 20px;
     padding-top: 60px;
-    margin-bottom: 20px;
-   
+    margin-bottom: 20px; 
 }
 .aboutviol{
-    width: 511px;
-    height: 298px;
+    max-width: 500px;
     background-color: #792AFF;
     box-sizing: border-box;
-    padding-top: 60px;
     margin-bottom: 20px;
+    padding: 40px;
+    padding-right: 20px;
+
 }
 .about_contenttitel{
     font-family: Inter;
@@ -99,12 +117,14 @@ section{
     font-size: 20px;
     font-weight: 700;
     color: #ffffff;
-    margin: 20px;
+    margin-bottom: 20px ;
     padding: 0;
+
 }
 .imgportfolio{
-    width: 336px;
-    height: 186px;
+    width: 100%;
+    height: 150px;
+    
 }
 .about_contentpp{
     font-family: Comfortaa;
@@ -144,9 +164,68 @@ section{
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse ;
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
 }
 
 @keyframes orbit{
 
 
+}
+.obertkaabaut{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    
+}
+.skillsfoto{
+    background-image: url(img/form3.png);
+    width: 376px;
+    height: 346px;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardsfoto{
+    background-image: url(img/card.png);
+    width: 196px;
+    height: 298px;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+.commentsfoto{
+    background-image: url(img/comment.png);
+    display: flex;
+    width: 313px;
+    height: 156px;
+    box-sizing: border-box;
+}
+.obertkacomments{
+    display: flex;
+}
+.obertka_comments{
+    display: flex;
+    margin: 30px;
+}
+.ingwork{
+    width: 407px;
+    height: 297px;
+    margin: 15px;
+}
+.allimg{
+    display: flex;
+}
+.textcoment{
+    padding: 40px;
+    font-family: Comfortaa;
+}
+.textskills{
+    font-family: Comfortaa;
 }
