@@ -110,6 +110,7 @@ section{
     font-family: Inter;
     font-size: 80px;
     font-weight: 700;
+    text-shadow: #000000 5px 5px 0px;
     color: #ffffff;
 }
 .about_contentp{
@@ -170,9 +171,14 @@ section{
 }
 
 @keyframes orbit{
-
-
+    from{
+        transform: translateY();
+    }
+    to{
+        transform: translateY(-40px);
+    }
 }
+
 .obertkaabaut{
     display: flex;
     align-items: center;
@@ -181,20 +187,24 @@ section{
 }
 .skillsfoto{
     background-image: url(img/form3.png);
-    width: 376px;
-    height: 346px;
+    width: 638px;
+    height: 410px;
     box-sizing: border-box;
     padding: 20px;
     padding-top: 60px;
     margin-bottom: 20px;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    margin-top: 40px;
 }
 .cardsfoto{
     background-image: url(img/card.png);
-    width: 196px;
-    height: 298px;
+    width: 204px;
+    height: 308px;
     box-sizing: border-box;
     padding: 20px;
     padding-top: 60px;
@@ -203,8 +213,8 @@ section{
 .commentsfoto{
     background-image: url(img/comment.png);
     display: flex;
-    width: 313px;
-    height: 156px;
+    width: 327px;
+    height: 161px;
     box-sizing: border-box;
 }
 .obertkacomments{
@@ -221,6 +231,7 @@ section{
 }
 .allimg{
     display: flex;
+    margin-top: 80px;
 }
 .textcoment{
     padding: 40px;
@@ -228,4 +239,43 @@ section{
 }
 .textskills{
     font-family: Comfortaa;
+}
+.textankets{
+    font-family: Comfortaa;
+}
+.logo{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    color: #BBFF2C;
+    text-shadow: #000000 5px 5px 0px;
+}
+.menu__links{
+    font-family: Comfortaa;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    padding: 10px 0px;
+    width: 120px;
+    text-align: center;
+    background-color: #ffffff;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 900;
+    
+}
+.menu{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 20px;
 }

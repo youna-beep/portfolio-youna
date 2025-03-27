@@ -9,7 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <header>
+        <h1 class="logo">YS</h1>
+        <nav class="menu">
+            <a href="#main" class="menu__links"> Главная</a>
+            <a href="#about" class="menu__links"> Обо мне</a>
+            <a href="#skills"class="menu__links"> Навыки</a>
+            <a href="#works" class="menu__links"> Работы</a>
+            <a href="#comments" class="menu__links"> Отзывы</a>
+        </nav>
+    </header>
     <section id="main">
         <img class="elien" src="img/maskot.png" alt="">
         <div class="maincontent ">
@@ -49,16 +60,16 @@
     </section>
     <section id="skills">
         <h2 class="about_contenttitel"> НАВЫКИ </h2>
-        <div>
-            <div class="skillsfoto">
-                <p class="textskills"> ЭТОТ САЙТ Я СДЕЛАЛА В РАМКАХ ОБУЧЕНИЯ ШКОЛЫ 
-                    ROCKET TECH SCHOOL
-                </p>
+        <div class="skillsfoto">
+            <p class="textskills"> ЭТОТ САЙТ Я СДЕЛАЛА В РАМКАХ ОБУЧЕНИЯ ШКОЛЫ 
+                ROCKET TECH SCHOOL
+            </p>
+            <div>
                 <img src="img/html.png" alt="">
                 <img src="img/css.png" alt="">
                 <img src="img/js.png" alt="">
-                <button class="button"> Смотреть работы</button>
             </div>
+            <button class="button"> Смотреть работы</button>
         </div>
         <img class="cloud"  src="img/moving-planet2.png" alt="">
 
@@ -77,8 +88,8 @@
             <div class="obertka_comments">
                 <div class="cardsfoto">
                     <img src="img/photo1.png" alt="">
-                    <h5>ВЛАДИМИР</h5>
-                    <p>Основатель Rocket Tech School</p>
+                    <h5 class="textankets">ВЛАДИМИР</h5>
+                    <p class="textankets">Основатель Rocket Tech School</p>
                 </div>
                 <div class="commentsfoto">
                     <p class="textcoment">Эта девочка проходила обучение веб разработке 4 месяца, и уже создает сложные сайты!</p>
@@ -87,8 +98,8 @@
             <div class="obertka_comments">
                 <div class="cardsfoto">
                     <img src="img/photo2.png" alt="">
-                    <h5>ДИАНА</h5>
-                    <p> Product Lead Rocket Tech School</p>
+                    <h5 class="textankets">ДИАНА</h5>
+                    <p class="textankets"> Product Lead Rocket Tech School</p>
                 </div>
                 <div class="commentsfoto">
                     <p class="textcoment" >Очень хорошо пишет код. Отличная оптимизация сайта. Современно, стильно, молодежно!</p>
