@@ -279,3 +279,7 @@ header{
     justify-content: center;
     gap: 20px;
 }
+.main_activ_button{
+    background-color: #792AFF;
+    color: #ffffff;
+}
