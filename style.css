@@ -270,7 +270,6 @@ header{
     position: fixed;
     top: 0;
     z-index: 900;
-    
 }
 .menu{
     display: flex;
@@ -281,6 +280,13 @@ header{
 .main_activ_button{
     background-color: #792AFF;
     color: #ffffff;
+}
+.mobile_menu{
+    background: none;
+    border: none;
+    display: none;
+    position: absolute;
+
 }
 @media (max-width: 600px){
     .maincontent{
@@ -304,10 +310,28 @@ header{
     }
     .aboutcontent{
         width: 320px;
-        height: 86px;
         padding-top: 60px;
     }
     .aboutviol{
         max-width: 320px;
     }
+    .decor-big{
+      display: none;
+    }
+    .obertkaabaut{
+        flex-direction: column-reverse;
+    }
+    .cloud{
+        display: none;
+    }
+    .mobile_menu{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    header{
+      justify-content:space-between;
+    }
 }
+
