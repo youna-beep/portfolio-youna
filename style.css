@@ -285,8 +285,21 @@ header{
     background: none;
     border: none;
     display: none;
-    position: absolute;
-
+}
+.open_menu{
+    background-color:#200153;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    z-index: -1;
+    display: none;
 }
 @media (max-width: 600px){
     .maincontent{
@@ -314,6 +327,7 @@ header{
     }
     .aboutviol{
         max-width: 320px;
+        max-height: 270px;
     }
     .decor-big{
       display: none;
@@ -332,6 +346,76 @@ header{
     }
     header{
       justify-content:space-between;
+    }
+    .skillsfoto{
+        width: 320px;
+        height: 274px;
+        padding: 20px;
+        padding-top: 60px;
+        margin-bottom: 20px;
+    }
+    .worksflagman{
+        height: 88px;
+        width: 87px;
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+    .textskills{
+        font-size: 14px;
+        font-weight: 700;
+        padding-top: 100px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .about_contenttitel{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .allimg{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ingwork{
+        height: 196px;
+        width: 301px;
+        gap: 18px;
+    }
+    .about_contentp{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .about_contentpp{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .obertkacomments{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .obertka_comments{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardsfoto{
+        height: 265px;
+        width: 210px;
+        
+    }
+    .commentsfoto{
+        height: 74px;
+        width: 208px;
+        padding-top: 0px;
+    }
+    .textcoment{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .textankets{
+        font-size: 14px;
+        font-weight: 400;
+        
     }
 }
 

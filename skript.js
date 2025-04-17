@@ -1,5 +1,6 @@
 const buttons = document.querySelectorAll(".menu__links")
-
+const menu_button = document.querySelector(".mobile_menu")
+const menu_open = document.querySelector(".open_menu")
 
 function handlescroll() {
     const screenHeight = document.documentElement.clientHeight;
