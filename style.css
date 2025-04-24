@@ -288,7 +288,7 @@ header{
     cursor: pointer;
 }
 .open_menu{
-    background-color:#200153;
+    background-color:#200153d2;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -425,8 +425,4 @@ header{
         font-weight: 400;
         
     }
-}
-
-.open_menu_active{
-    display: flex;
 }
