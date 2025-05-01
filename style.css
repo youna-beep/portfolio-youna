@@ -70,6 +70,14 @@ section{
     flex-direction: column;
     position: relative;
 }
+#contakts {
+    background-image: url(img/bgMAIN.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
 .maincontent_wraper{
     width: max-content;
     margin: 0 auto;
@@ -304,6 +312,27 @@ header{
 .open_menu_active{
     display: flex;
 }
+.contakts_all {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px 0; 
+}
+  
+.contakts_all img {
+    width: 50px; 
+    height: 50px;
+    transition: transform 0.3s ease, filter 0.3s ease; 
+}
+.contakts_all img:hover {
+    transform: scale(1.2); 
+    filter: brightness(1.2);
+}
+.contakts_all img:active {
+    transform: scale(1); 
+}
+  
+  
 @media (max-width: 600px){
     .maincontent{
         width: 320px;

@@ -43,3 +43,4 @@ function toggleMenu() {
     mobile_menu.classList.toggle("open_menu_active")
 }
 menu_button.onclick = toggleMenu
+
